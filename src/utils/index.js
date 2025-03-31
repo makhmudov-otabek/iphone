@@ -11,7 +11,7 @@ import highlightFourthmv from "../../public/assets/videos/hightlight-fourth.mp4"
 import exploremv from "../../public/assets/videos/explore.mp4";
 import framemv from "../../public/assets/videos/frame.mp4";
 
-import apple from "../../public/assets/images/apple.svg";
+import apple from "../../public/vite.svg";
 import search from "../../public/assets/images/search.svg";
 import bag from "../../public/assets/images/bag.svg";
 import watch from "../../public/assets/images/watch.svg";

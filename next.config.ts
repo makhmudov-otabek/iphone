@@ -1,10 +1,13 @@
 import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
 const withVideos = require("next-videos");
-module.exports = withVideos();
+
+const nextConfig: NextConfig = withVideos({
+  images: {
+    unoptimized: true,
+    dangerouslyAllowSVG: true,
+    contentDispositionType: "attachment",
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox",
+  },
+});
 
 export default nextConfig;
